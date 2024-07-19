@@ -17,7 +17,7 @@ export function Input() {
     <div className="flex border border-[#d9d9d9] my-[10px] rounded-md px-[5px] items-center justify-between w-[100%]">
       <input
         type="text"
-        className="pl-[10px] list-none outline-none w-auto"
+        className="pl-[10px] list-none outline-none w-[100%]"
         placeholder="请输入任务！"
         value={todo}
         onChange={(e) => setTodo(e.target.value)}
